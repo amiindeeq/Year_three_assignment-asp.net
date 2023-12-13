@@ -1,0 +1,22 @@
+﻿@model student;
+
+<h3>Registration succeeded !!</h3>
+<br />
+<b>ID:</b>
+<br />
+<input type="text" class="form-control" value="@Model.Id" />
+<br />
+<b>Name:</b>
+<br />
+<input type="text" class="form-control" value="@Model.Name" />
+<br />
+<b>Mobile:</b>
+<br />
+<input type="text" class="form-control" value="@Model.Mobile" />
+<br />
+<b>Course:</b>
+<br />
+<input type="text" class="form-control" value="@Model.Course" />
+<br />
+
+<a class="btn btn-primary" asp-controller="stud" asp-action="assignment">Go Back</a>
